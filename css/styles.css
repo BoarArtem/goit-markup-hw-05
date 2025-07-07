@@ -529,6 +529,63 @@ fieldset {
     fill: var(--cloud-color);
 }
 
+.subscribe-container {
+    margin-left: 80px;
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 24px;
+}
+
+.subscribe-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+    margin-bottom: 16px;
+}
+
+.subscribe-input {
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 8px 16px;
+    width: 264px;
+    height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    outline: none;
+}
+
+.subscribe-input::placeholder {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: white
+}
+
+.subscribe-button {
+    color: white;
+    background-color: #4D5AE5;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    gap: 16px;
+
+    width: 165px;
+    height: 40px; 
+}
+
 .backdrop {
     position: fixed;
     top: 0;
@@ -698,9 +755,15 @@ label {
 
 .checkbox-form {
     position: absolute;
-    opacity: 0;
-    width: 0;
-    height: 0;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .privacy-label {
