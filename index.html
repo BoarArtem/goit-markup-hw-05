@@ -45,7 +45,7 @@
     <section class="hero-section">
       <div class="container">
         <h1 class="hero-heading">Effective Solutions for Your Business</h1>
-        <button type="button" class="hero-button">Order Service</button>
+        <button type="button" class="hero-button" data-modal-open>Order Service</button>
       </div>
     </section>
 
@@ -367,9 +367,9 @@
       </div>
     </section>
 
-    <div class="backdrop">
+    <div class="backdrop" data-modal>
       <div class="backdrop-content">
-        <button class="backdrop-item" aria-label="Close modal">
+        <button class="backdrop-item" aria-label="Close modal" data-modal-close>
           <svg class="close-icon">
             <use href="./images/icons.svg#close-icon"></use>
           </svg>
@@ -470,8 +470,22 @@
           </li>
         </ul>
       </div>
+
+      <div class="subscribe-container">
+        <p class="subscribe-text">Subscribe</p>
+        <form class="subscribe-form">
+          <input type="email" placeholder="E-mail" class="subscribe-input" />
+          <button type="submit" class="subscribe-button">Subscribe 
+            <svg width="24" height="20" class="subscribe-icon">
+              <use href="./images/icons.svg#send-icon"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
     </div>
   </footer>
+
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
