@@ -441,7 +441,7 @@
             <fieldset class="form-fieldset">
               <label for="name">Name</label>
               <div class="input-container">
-                <input type="text" class="input-form" name="name" />
+                <input type="text" class="input-form" id="name" name="name" />
                 <svg class="input-icon" width="12" height="12">
                   <use href="./images/icons.svg#name-icon"></use>
                 </svg>
@@ -450,7 +450,7 @@
             <fieldset class="form-fieldset">
               <label for="phone">Phone</label>
               <div class="input-container">
-                <input type="tel" class="input-form" name="phone" />
+                <input type="tel" class="input-form" id="phone" name="phone" />
                 <svg class="input-icon" width="13" height="13">
                   <use href="./images/icons.svg#phone-icon"></use>
                 </svg>
@@ -459,7 +459,7 @@
             <fieldset class="form-fieldset">
               <label for="email">Email</label>
               <div class="input-container">
-                <input type="email" class="input-form" name="email" />
+                <input type="email" class="input-form" id="email" name="email" />
                 <svg class="input-icon" width="15" height="12">
                   <use href="./images/icons.svg#email-icon"></use>
                 </svg>
@@ -467,13 +467,13 @@
             </fieldset>
             <fieldset class="form-fieldset">
               <label for="comment">Comment</label>
-              <textarea name="comment" id="" class="input-form textarea" placeholder="Text input"></textarea>
+              <textarea name="comment" id="comment" class="input-form textarea" placeholder="Text input"></textarea>
             </fieldset>
             <fieldset class="form-fieldset">
+              <h3 class="privacy-heading"></h3>
               <label class="privacy-element">
                 <input type="checkbox" class="checkbox-form" name="checkbox" />
                 <span class="custom-checkbox"></span>
-                <h3 class="privacy-heading">
                   I accept the terms and conditions of the
                   <span class="privacy-span">
                     <a href="">Privacy Policy</a>
