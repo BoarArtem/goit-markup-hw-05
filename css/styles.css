@@ -184,6 +184,7 @@ fieldset {
 .hero-button:focus {
     background-color: #404bbf;
 }
+
 /* Features section */
 
 .features-section {
@@ -288,8 +289,8 @@ fieldset {
     background: #FFFFFF;
     border-radius: 0 0 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-              0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-              0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+        0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-item img {
@@ -584,7 +585,7 @@ fieldset {
     gap: 16px;
 
     width: 165px;
-    height: 40px; 
+    height: 40px;
 }
 
 .backdrop {
@@ -606,8 +607,8 @@ fieldset {
     transform: translate(-50%, -50%);
     background: #fcfcfc;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+        0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px;
     padding: 20px;
@@ -693,11 +694,12 @@ label {
     padding-bottom: 11px;
     width: 100%;
     box-sizing: border-box;
+    border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
 .input-form:active,
 .input-form:focus {
-    border: 2px solid #4d5ae5;
+    border: 1px solid #4d5ae5;
     outline: none;
 }
 
@@ -749,7 +751,7 @@ label {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background: #4d5ae5;
-    border: none;   
+    border: none;
     margin-left: 119px;
     margin: 24px auto 0;
 }
@@ -818,7 +820,8 @@ label {
 
 .privacy-element {
     display: flex;
-    align-items: center;;
+    align-items: center;
+    ;
     gap: 8px;
     cursor: pointer;
     margin-top: 16px;
