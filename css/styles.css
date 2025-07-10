@@ -560,7 +560,9 @@ fieldset {
     width: 264px;
     height: 40px;
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
     outline: none;
 }
 
@@ -570,7 +572,7 @@ fieldset {
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-    color: #ffffff
+    color: #ffffff;
 }
 
 .subscribe-button {
@@ -581,12 +583,11 @@ fieldset {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
     border-radius: 4px;
-    gap: 16px;
     min-width: 165px;
     height: 40px;
-
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
